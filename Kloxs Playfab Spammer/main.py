@@ -6,7 +6,8 @@ from playfab import PlayFabClientAPI, PlayFabSettings
 #Made by klox#0001
 PlayFabSettings.TitleId = input('TitleID: ')
 name = input('CustomID Name: ')
-print('Spamming ' + PlayFabSettings.TitleId + ' With Name ' + name)
+print('Spamming ' + PlayFabSettings.TitleId + ' With Name ' + name)bfe37
+
 
 
 def callback(success, failure):
